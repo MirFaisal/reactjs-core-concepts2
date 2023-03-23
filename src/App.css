@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.main-product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.container {
+  margin-block-end: 30px;
+  padding: 20px;
+  border: 3px solid rgb(154, 226, 255);
+  border-radius: 20px;
+}
+.buttons-container {
+  width: 120px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons-container button:first-child {
+  padding: 10px 20px;
+  font-weight: 700;
+  color: rgb(98, 242, 98);
+  font-size: 20px;
+}
+.buttons-container button:last-child {
+  padding: 10px 20px;
+  font-weight: 700;
+  color: rgb(242, 98, 98);
+  font-size: 20px;
+}
